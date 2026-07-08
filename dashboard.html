@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beranda — SIA.Sat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/global.css">
+</head>
+<body data-page="dashboard">
+
+<div class="app">
+  <header class="topbar" id="topbar"></header>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar"></aside>
+
+    <main class="content">
+      <p class="page-sub" style="margin-bottom:2px;">Selamat datang di Sistem Informasi Akademik Satya Wacana!</p>
+      <h1 class="page-title" style="margin-bottom:22px;">Mikhael Gusti Hamurdani — 672025064</h1>
+
+      <p style="font-weight:600; margin-bottom:8px;">Total SKS saat ini</p>
+      <div class="progress-shell">
+        <div class="progress-track">
+          <div class="progress-fill" style="width:16%;">23 SKS</div>
+        </div>
+        <span class="progress-note">*Min. 144 sks</span>
+      </div>
+
+      <div class="card">
+        <p style="margin:0 0 22px; line-height:1.6;">
+          Untuk keperluan administrasi Anda, silahkan update isian di bawah ini, data ini dipergunakan untuk syarat pelaporan
+          ke Direktorat Jenderal Pendidikan Tinggi (DIKTI). <strong>Karena pentingnya data kependudukan mahasiswa dalam
+          pelaporan PD DIKTI dan verifikasi keabsahan ijazah, maka wajib melakukan pengisian NIK dan Nomor KK secara benar!</strong>
+        </p>
+
+        <form id="dataForm" class="form-grid" novalidate>
+          <div class="form-field">
+            <label for="ttl">Tempat, Tanggal Lahir</label>
+            <input class="field" id="ttl" type="text" placeholder="Salatiga, 06 Oktober 2006">
+          </div>
+          <div class="form-field">
+            <label for="rek">Nomor Rekening</label>
+            <input class="field" id="rek" type="text" placeholder="Nomor rekening">
+          </div>
+
+          <div class="form-field">
+            <label for="kk">No. Kartu Keluarga</label>
+            <input class="field" id="kk" type="text" placeholder="No. Kartu Keluarga">
+          </div>
+          <div class="form-field">
+            <label for="bank">Bank</label>
+            <input class="field" id="bank" type="text" placeholder="Nama bank">
+          </div>
+
+          <div class="form-field">
+            <label for="nik">NIK</label>
+            <input class="field" id="nik" type="text" placeholder="NIK">
+          </div>
+          <div class="form-field">
+            <label for="anama">Atas Nama Rekening</label>
+            <input class="field" id="anama" type="text" placeholder="Atas nama rekening">
+          </div>
+
+          <div class="form-field">
+            <label for="hp">No. Handphone</label>
+            <input class="field" id="hp" type="text" placeholder="0812-8622-6463">
+          </div>
+          <div class="form-field">
+            <label for="hub">Hubungan Pemilik</label>
+            <input class="field" id="hub" type="text" placeholder="Contoh: Orang Tua">
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input class="field" id="email" type="email" placeholder="672025064@student.uksw.edu">
+          </div>
+
+          <div></div>
+          <div style="grid-column:1/-1; display:flex; justify-content:center;">
+            <button class="btn btn-primary" type="submit" style="max-width:220px;">Simpan</button>
+          </div>
+        </form>
+
+        <p class="form-note">
+          Demi kelancaran pengiriman email dari Bagian Administrasi Akademik UKSW, silahkan menggunakan email
+          student.uksw.edu yang telah diberikan. Bagian Administrasi Akademik UKSW tidak bertanggung jawab,
+          apabila data yang anda berikan salah.
+        </p>
+      </div>
+    </main>
+  </div>
+</div>
+
+<script src="js/global.js"></script>
+</body>
+</html>

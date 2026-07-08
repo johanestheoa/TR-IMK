@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login — SIA.Sat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+
+<div class="guest-bg">
+  <div class="guest-card">
+    <div class="guest-logo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="52" height="52">
+        <path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/>
+      </svg>
+    </div>
+    <p class="guest-title">Sistem Informasi Akademik</p>
+    <p class="guest-sub">Satya Wacana</p>
+
+    <div style="height:14px"></div>
+
+    <form id="loginForm" novalidate>
+      <input class="field" type="text" placeholder="NIM" required>
+      <input class="field" type="password" placeholder="Password" required>
+      <button class="btn btn-primary" type="submit">Login</button>
+    </form>
+
+    <a class="guest-link" href="lupa_password.html">Lupa password?</a>
+
+    <div class="guest-divider"></div>
+    <a class="btn btn-outline" href="#" onclick="alert('Halaman pendaftaran akun belum tersedia pada demo ini.'); return false;">Pendaftaran Akun</a>
+
+    <a class="guest-link" href="panduan_registrasi.html">Panduan Mahasiswa</a>
+  </div>
+</div>
+
+<script src="js/global.js"></script>
+</body>
+</html>
