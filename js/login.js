@@ -28,5 +28,6 @@ form.addEventListener("submit", async function (e) {
 
     alert("Login berhasil!");
 
+    sessionStorage.setItem("nim", data.nim);
     window.location.href = "dashboard.html";
 });
