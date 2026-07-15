@@ -169,15 +169,6 @@
     });
   }
 
-  function wireDashboardForm() {
-    const form = document.getElementById("dataForm");
-    if (!form) return;
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      alert("Data berhasil disimpan (simulasi).");
-    });
-  }
-
   function wireDispensasiForm() {
     const form = document.getElementById("dispensasiForm");
     if (!form) return;
