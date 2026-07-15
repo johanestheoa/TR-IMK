@@ -61,6 +61,8 @@ form.addEventListener("submit", async function (e) {
         );
 
         form.reset();
+
+        window.location.href = "index.html"
     }
 
 });

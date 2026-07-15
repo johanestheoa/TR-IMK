@@ -23,8 +23,19 @@
     <div style="height:14px"></div>
 
     <form id="loginForm" novalidate>
-      <input class="field" type="text" placeholder="NIM" required>
-      <input class="field" type="password" placeholder="Password" required>
+      <input 
+      id="nim" 
+      class="field" 
+      type="text" 
+      placeholder="NIM" 
+      required>
+
+      <input 
+      input="password" 
+      class="field" 
+      type="password" 
+      placeholder="Password" 
+      required>
       <button class="btn btn-primary" type="submit">Login</button>
     </form>
 
@@ -36,7 +47,8 @@
     <a class="guest-link" href="panduan_registrasi.html">Panduan Mahasiswa</a>
   </div>
 </div>
-
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/login.js"></script>
 <script src="js/global.js"></script>
 </body>
 </html>
