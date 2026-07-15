@@ -133,15 +133,6 @@
 
   /* ---------- Page-specific light interactions ---------- */
 
-  function wireLoginForm() {
-    const form = document.getElementById("loginForm");
-    if (!form) return;
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      window.location.href = "dashboard.html";
-    });
-  }
-
   function wireForgotForm() {
     const form = document.getElementById("forgotForm");
     if (!form) return;
