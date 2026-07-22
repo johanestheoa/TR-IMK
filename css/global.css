@@ -552,6 +552,17 @@ table.data td.center{ text-align:center; }
   .guide-right{ min-height:220px; order:-1; }
 }
 
+@media (max-width: 1024px){
+  .form-grid{ grid-template-columns: 1fr; }
+  .profile-grid{ grid-template-columns: 1fr; }
+  .pay-layout{ grid-template-columns: 1fr; }
+  .info-card{ grid-template-columns: 1fr 1fr; }
+  .info-card .logo-cell{ display:none; }
+  .guide-wrap{ grid-template-columns: 1fr; }
+  .guide-right{ min-height:220px; order:-1; }
+  .radio-grid{ grid-template-columns: 1fr 1fr; }
+}
+ 
 @media (max-width: 860px){
   .topbar-burger{ display:flex; }
   .sidebar{
@@ -577,9 +588,16 @@ table.data td.center{ text-align:center; }
   .sidebar-backdrop.show{ display:block; }
   .content{ padding: 24px 18px 50px; }
 }
-
+ 
 @media (max-width: 600px){
   .topbar{ padding: 14px 16px; }
   .guest-card{ padding: 30px 22px 26px; }
   .info-card{ grid-template-columns: 1fr; }
+  .radio-grid{ grid-template-columns: 1fr; }
+  .guest-card-lg{ padding: 26px 18px 22px; }
+  .ipk-box{ justify-content:flex-start; }
+}
+ 
+@media (max-width: 480px){
+  .content > div[style*="display:flex"]{ flex-wrap: wrap; }
 }
