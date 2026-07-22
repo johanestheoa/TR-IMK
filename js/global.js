@@ -214,10 +214,8 @@
     buildSidebar();
     wireMobileMenu();
     wireThemeSwitch();
-    wireLoginForm();
     wireForgotForm();
     wireGantiPassword();
-    wireDashboardForm();
     wireDispensasiForm();
     wireAbsensiButtons();
     wirePaymentButtons();

@@ -21,7 +21,11 @@ form.addEventListener("submit", async function (e) {
     .eq("password", password)
     .single();
 
+    console.log("DATA", data);
+    console.log("ERROR", error);
+
     if(error){
+        alert(error.message)
         alert("NIM atau Password salah!.");
         return;
     }
